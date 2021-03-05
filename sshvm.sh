@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# SSH into azure worker nodes
+# SSH into azure worker nodes for vmss 
+#https://docs.microsoft.com/en-us/azure/aks/ssh#configure-virtual-machine-scale-set-based-aks-clusters-for-ssh-access
 
 if [ $# -ne 2 ]; then
  echo "Usage $0 <Resource Group> <Cluster name> "
