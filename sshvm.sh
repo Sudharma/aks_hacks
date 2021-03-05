@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# SSH into azure worker nodes
+
 if [ $# -ne 2 ]; then
  echo "Usage $0 <Resource Group> <Cluster name> "
  exit 1
